@@ -1,0 +1,39 @@
+.text-updater-node {
+  height: 50px;
+  border: 1px solid #eee;
+  padding: 5px;
+  border-radius: 5px;
+  background: white;
+}
+
+.text-updater-node label {
+  display: block;
+  color: #777;
+  font-size: 12px;
+}
+
+/* src/App.css */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.node-panel {
+  width: 200px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ccc;
+}
+
+.node {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: grab;
+}
+
+.canvas {
+  flex-grow: 1;
+  position: relative;
+}
