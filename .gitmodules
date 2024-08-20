@@ -1,0 +1,3 @@
+[submodule "some-submodule"]
+  path = some-submodule
+  url = https://github.com/Shadowcyng/flow-maker.git
