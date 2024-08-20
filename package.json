@@ -2,8 +2,11 @@
   "name": "my-react-flow-app",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://gitname.github.io/flow-maker",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -11,6 +14,7 @@
   },
   "dependencies": {
     "@xyflow/react": "^12.1.1",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
