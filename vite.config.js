@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: 'flow-maker',
+  // In your Vite or server configuration
+  headers: {
+    'Permissions-Policy': 'interest-cohort=()',
+  }
 })
